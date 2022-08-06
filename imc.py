@@ -26,7 +26,4 @@ elif imc <= 24.9 or imc <= 30.0:
     print('Você está com pré-obesidade, ' + 'seu imc mede ' + str(imc))
 
 elif imc > 30.0:
-    print('Você está com obesidade mórbida, ' + 'seu imc mede ' + str(imc))
-
-else:
-    print('Você não digitou o valor corretamente')
+    print('Você está com obesidade, ' + 'seu imc mede ' + str(imc))
