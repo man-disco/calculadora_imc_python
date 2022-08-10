@@ -4,8 +4,6 @@
 # imc entre 18,5 e 24,9 = normal
 # imc entre 25,0 e 29,9 = sobrepeso
 # imc entre 30,0 e 39,9 = obesidade
-# imc maior que 40 = obesidade grave
-
 
 peso = int(input('Digite seu peso: '))
 altura = float(input('Digite sua altura: '))
@@ -26,10 +24,7 @@ elif imc <= 25.0 or imc <= 29.9:
 elif imc <= 24.9 or imc <= 30.0:
     print('Você está com pré-obesidade, ' + 'seu imc mede ' + str(imc) + '\nPara atingir o seu peso ideal, você deve '
                                                                          'pesar entre 41.6 e 56kg.')
-
 elif imc > 30.0:
     print('Você está com obesidade, ' + 'seu imc mede ' + str(imc) + '\nPara atingir o seu peso ideal, você deve '
                                                                      'pesar entre 41.6 e 56kg.')
-
-else:
-    print('Você digitou um valor muito alto')
+    
