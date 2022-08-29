@@ -1,5 +1,5 @@
 # Calculadora de índice de massa corpórea python.
-# Feito por João Lucas, 04/08/2022.
+# Feito por João Lucas, 04/08/2022, Versão 1.0
 # imc menor que 18,5 = magro
 # imc entre 18,5 e 24,9 = normal
 # imc entre 25,0 e 29,9 = sobrepeso
