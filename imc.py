@@ -14,7 +14,7 @@ while True:
         if opc == 1:
             pass
         elif opc == 2:
-            print("Ao inserir o peso, evite letras, e ao inserir a altura não esqueça de colocar o ponto entre o "
+            print("\nAo inserir o peso, evite letras, e ao inserir a altura não esqueça de colocar o ponto entre o "
                   "metro e cm.")
             pass
         elif opc == 3:
@@ -24,7 +24,7 @@ while True:
             continue
 
     except ValueError:
-        print("erro: Você digitou uma letra, tente novamente com números!\n")
+        print("\nErro: Você digitou uma letra, tente novamente com números!\n")
         continue
 
     try:
